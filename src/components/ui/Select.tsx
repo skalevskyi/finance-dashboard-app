@@ -4,7 +4,7 @@ import type { SelectHTMLAttributes } from 'react';
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   label?: string;
   error?: string;
-  options: Array<{ value: string; label: string }>;
+  options: Array<{ value: string; label: string; disabled?: boolean }>;
 }
 
 export const Select = forwardRef<HTMLSelectElement, SelectProps>(
@@ -29,11 +29,18 @@ export const Select = forwardRef<HTMLSelectElement, SelectProps>(
           } ${className}`}
           {...props}
         >
-          {options.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
+          {options.map((option) => {
+            // Only show disabled placeholder option when value is empty (not selected)
+            // This way it appears as placeholder but not in dropdown list when category is selected
+            if (option.disabled && props.value && props.value !== option.value) {
+              return null;
+            }
+            return (
+              <option key={option.value} value={option.value} disabled={option.disabled}>
+                {option.label}
+              </option>
+            );
+          })}
         </select>
         {error && (
           <p className="mt-1 text-sm text-red-600 dark:text-red-400" role="alert">
