@@ -1,0 +1,15 @@
+{
+  "title": "Панель управління",
+  "totalBalance": "Загальний баланс",
+  "totalIncome": "Загальний дохід",
+  "totalExpense": "Загальні витрати",
+  "currentBalance": "Поточний баланс",
+  "currentIncome": "Поточний дохід",
+  "currentExpense": "Поточні витрати",
+  "monthlyChart": "Місячний огляд",
+  "recentTransactions": "Останні транзакції",
+  "noTransactions": "Транзакцій поки немає",
+  "addFirstTransaction": "Додайте свою першу транзакцію, щоб почати",
+  "day": "День"
+}
+

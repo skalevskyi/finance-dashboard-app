@@ -1,0 +1,15 @@
+{
+  "title": "Dashboard",
+  "totalBalance": "Total Balance",
+  "totalIncome": "Total Income",
+  "totalExpense": "Total Expenses",
+  "currentBalance": "Current Balance",
+  "currentIncome": "Current Income",
+  "currentExpense": "Current Expenses",
+  "monthlyChart": "Monthly Overview",
+  "recentTransactions": "Recent Transactions",
+  "noTransactions": "No transactions yet",
+  "addFirstTransaction": "Add your first transaction to get started",
+  "day": "Day"
+}
+

@@ -1,0 +1,22 @@
+{
+  "title": "Settings",
+  "theme": "Theme",
+  "themeMode": "Theme Mode",
+  "system": "System",
+  "light": "Light",
+  "dark": "Dark",
+  "autoTime": "Auto (Time-based)",
+  "autoTimeDesc": "Light from 08:00 to 20:00, dark otherwise",
+  "autoTheme": "Automatic theme by time",
+  "autoThemeDesc": "Automatically switch theme based on time of day (light from 6:00 to 20:00)",
+  "manualTheme": "Manual theme switching:",
+  "language": "Language",
+  "english": "English",
+  "ukrainian": "Ukrainian",
+  "french": "French",
+  "data": "Data",
+  "clearAllData": "Clear All Data",
+  "clearAllDataDesc": "This will permanently delete all your transactions. This action cannot be undone.",
+  "clearAllDataConfirm": "Are you sure you want to clear all data? This action cannot be undone."
+}
+

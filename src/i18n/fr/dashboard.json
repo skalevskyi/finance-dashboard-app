@@ -1,0 +1,15 @@
+{
+  "title": "Tableau de bord",
+  "totalBalance": "Solde total",
+  "totalIncome": "Revenus totaux",
+  "totalExpense": "Dépenses totales",
+  "currentBalance": "Solde actuel",
+  "currentIncome": "Revenus actuels",
+  "currentExpense": "Dépenses actuelles",
+  "monthlyChart": "Vue d'ensemble mensuelle",
+  "recentTransactions": "Transactions récentes",
+  "noTransactions": "Aucune transaction pour le moment",
+  "addFirstTransaction": "Ajoutez votre première transaction pour commencer",
+  "day": "Jour"
+}
+

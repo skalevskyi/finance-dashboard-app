@@ -1,0 +1,22 @@
+{
+  "title": "Paramètres",
+  "theme": "Thème",
+  "themeMode": "Mode de thème",
+  "system": "Système",
+  "light": "Clair",
+  "dark": "Sombre",
+  "autoTime": "Auto (basé sur l'heure)",
+  "autoTimeDesc": "Clair de 08:00 à 20:00, sombre sinon",
+  "autoTheme": "Thème automatique par heure",
+  "autoThemeDesc": "Changer automatiquement le thème selon l'heure de la journée (clair de 6:00 à 20:00)",
+  "manualTheme": "Changement de thème manuel :",
+  "language": "Langue",
+  "english": "Anglais",
+  "ukrainian": "Ukrainien",
+  "french": "Français",
+  "data": "Données",
+  "clearAllData": "Effacer toutes les données",
+  "clearAllDataDesc": "Cela supprimera définitivement toutes vos transactions. Cette action ne peut pas être annulée.",
+  "clearAllDataConfirm": "Êtes-vous sûr de vouloir effacer toutes les données ? Cette action ne peut pas être annulée."
+}
+

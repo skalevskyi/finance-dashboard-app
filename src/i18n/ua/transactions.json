@@ -1,0 +1,44 @@
+{
+  "title": "Транзакції",
+  "addTransaction": "Додати транзакцію",
+  "editTransaction": "Редагувати транзакцію",
+  "deleteTransaction": "Видалити транзакцію",
+  "deleteConfirm": "Ви впевнені, що хочете видалити цю транзакцію?",
+  "type": "Тип",
+  "income": "Дохід",
+  "expense": "Витрата",
+  "amount": "Сума",
+  "currency": "Валюта",
+  "category": "Категорія",
+  "date": "Дата",
+  "note": "Примітка",
+  "optional": "Необов'язково",
+  "required": "Обов'язково",
+  "filters": "Фільтри",
+  "dateFrom": "Від дати",
+  "dateTo": "До дати",
+  "allCategories": "Всі категорії",
+  "allTypes": "Всі типи",
+  "noTransactions": "Транзакції не знайдено",
+  "noTransactionsDesc": "Спробуйте змінити фільтри або додати нову транзакцію",
+  "categories": {
+    "transport": "Транспорт",
+    "shopping": "Покупки",
+    "bills": "Комунальні послуги",
+    "entertainment": "Розваги",
+    "health": "Здоров'я та фітнес",
+    "education": "Освіта",
+    "salary": "Зарплата",
+    "cash": "Готівка",
+    "credit": "Кредит",
+    "subscriptions": "Підписки",
+    "other": "Інше"
+  },
+  "selectCategory": "Виберіть категорію",
+  "currencies": {
+    "USD": "Долар США",
+    "EUR": "Євро",
+    "UAH": "Гривня"
+  }
+}
+

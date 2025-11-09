@@ -1,0 +1,44 @@
+{
+  "title": "Transactions",
+  "addTransaction": "Ajouter une transaction",
+  "editTransaction": "Modifier la transaction",
+  "deleteTransaction": "Supprimer la transaction",
+  "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette transaction ?",
+  "type": "Type",
+  "income": "Revenu",
+  "expense": "Dépense",
+  "amount": "Montant",
+  "currency": "Devise",
+  "category": "Catégorie",
+  "date": "Date",
+  "note": "Note",
+  "optional": "Optionnel",
+  "required": "Requis",
+  "filters": "Filtres",
+  "dateFrom": "Date de début",
+  "dateTo": "Date de fin",
+  "allCategories": "Toutes les catégories",
+  "allTypes": "Tous les types",
+  "noTransactions": "Aucune transaction trouvée",
+  "noTransactionsDesc": "Essayez d'ajuster vos filtres ou d'ajouter une nouvelle transaction",
+  "categories": {
+    "transport": "Transport",
+    "shopping": "Shopping",
+    "bills": "Factures et services",
+    "entertainment": "Divertissement",
+    "health": "Santé et fitness",
+    "education": "Éducation",
+    "salary": "Salaire",
+    "cash": "Espèces",
+    "credit": "Crédit",
+    "subscriptions": "Abonnements",
+    "other": "Autre"
+  },
+  "selectCategory": "Sélectionner une catégorie",
+  "currencies": {
+    "USD": "Dollar américain",
+    "EUR": "Euro",
+    "UAH": "Hryvnia ukrainienne"
+  }
+}
+

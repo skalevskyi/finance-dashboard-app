@@ -1,0 +1,23 @@
+{
+  "appName": "Suivi Financier",
+  "loading": "Chargement...",
+  "error": "Erreur",
+  "success": "Succès",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "add": "Ajouter",
+  "close": "Fermer",
+  "confirm": "Confirmer",
+  "yes": "Oui",
+  "no": "Non",
+  "search": "Rechercher",
+  "filter": "Filtre",
+  "clear": "Effacer",
+  "apply": "Appliquer",
+  "back": "Retour",
+  "next": "Suivant",
+  "previous": "Précédent"
+}
+
