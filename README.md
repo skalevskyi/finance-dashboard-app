@@ -4,11 +4,21 @@ A modern, full-featured personal finance tracking application built with React, 
 
 ## Screenshots
 
+### Desktop
+
 ![Dashboard 1](screenshots/Dashboard%201.png)
 
 ![Dashboard 2](screenshots/Dashboard%202.png)
 
 ![Dashboard 3](screenshots/Dashboard%203.png)
+
+### Mobile
+
+![Mobile Dashboard 1](screenshots/Mobile%20Dashboard%201.png)
+
+![Mobile Dashboard 2](screenshots/Mobile%20Dashboard%202.png)
+
+![Mobile Dashboard 3](screenshots/Mobile%20Dashboard%203.png)
 
 ## Features
 
