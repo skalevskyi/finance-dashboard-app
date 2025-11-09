@@ -12,7 +12,7 @@ interface ModalProps {
 export const Modal = ({ isOpen, onClose, title, children, footer }: ModalProps) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const handleClose = useCallback(() => {
     if (isAnimating) return;

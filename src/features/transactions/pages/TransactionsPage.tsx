@@ -29,7 +29,7 @@ const getCurrentMonthDates = () => {
 
 export const TransactionsPage = () => {
   const { t } = useTranslation('transactions');
-  const { transactions, addTransaction, updateTransaction, deleteTransaction, getFilteredTransactions } =
+  const { addTransaction, updateTransaction, deleteTransaction, getFilteredTransactions } =
     useTransactionsStore();
 
   const defaultDates = getCurrentMonthDates();

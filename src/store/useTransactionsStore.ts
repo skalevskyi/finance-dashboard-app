@@ -133,7 +133,7 @@ export const useTransactionsStore = create<TransactionsState>()(
     }),
     {
       name: 'transactions-storage',
-      migrate: (persistedState: any, version: number) => {
+      migrate: (persistedState: any, _version: number) => {
         // Migrate old transactions without currency field
         if (persistedState?.transactions) {
           persistedState.transactions = persistedState.transactions.map((t: any) => {

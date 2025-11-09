@@ -7,7 +7,7 @@ import App from './app/App';
 if (typeof window !== 'undefined') {
   // Safe localStorage access for FINGERPRINT_SWITCH
   try {
-    const fingerprintSwitch = localStorage.getItem('FINGERPRINT_SWITCH') || 'off';
+    localStorage.getItem('FINGERPRINT_SWITCH') || 'off';
     if (typeof (window as any).all_funcdisable === 'function') {
       (window as any).all_funcdisable = (window as any).all_funcdisable.bind(window);
     }

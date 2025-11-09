@@ -134,7 +134,7 @@ export const TransactionForm = ({ transaction, onSubmit, onCancel }: Transaction
         label={t('category')}
         value={formData.category}
         onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-        options={[{ value: '', label: t('selectCategory') }, ...categories]}
+        options={categories}
         required
         error={errors.category}
       />

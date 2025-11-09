@@ -59,7 +59,7 @@ export const Dashboard = () => {
                     compact={isCompact}
                     trend={
                       balance > 0 && income > 0
-                        ? { value: ((income - expense) / income) * 100, isPositive: true }
+                        ? { value: Math.round(((income - expense) / income) * 100), isPositive: true }
                         : undefined
                     }
                   />

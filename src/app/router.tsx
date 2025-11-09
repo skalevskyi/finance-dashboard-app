@@ -6,35 +6,40 @@ import { Settings } from '@/pages/Settings';
 import { createBrowserRouter } from 'react-router-dom';
 import { Layout } from './Layout';
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      element: <Layout />,
+      children: [
+        {
+          path: '/',
+          element: <Dashboard />,
+        },
+        {
+          path: '/transactions',
+          element: <TransactionsPage />,
+        },
+        {
+          path: '/transactions/new',
+          element: <AddEditTransactionPage />,
+        },
+        {
+          path: '/transactions/:id/edit',
+          element: <AddEditTransactionPage />,
+        },
+        {
+          path: '/settings',
+          element: <Settings />,
+        },
+        {
+          path: '*',
+          element: <NotFound />,
+        },
+      ],
+    },
+  ],
   {
-    element: <Layout />,
-    children: [
-      {
-        path: '/',
-        element: <Dashboard />,
-      },
-      {
-        path: '/transactions',
-        element: <TransactionsPage />,
-      },
-      {
-        path: '/transactions/new',
-        element: <AddEditTransactionPage />,
-      },
-      {
-        path: '/transactions/:id/edit',
-        element: <AddEditTransactionPage />,
-      },
-      {
-        path: '/settings',
-        element: <Settings />,
-      },
-      {
-        path: '*',
-        element: <NotFound />,
-      },
-    ],
+    basename: '/finance-dashboard-app',
   },
-]);
+);
 
