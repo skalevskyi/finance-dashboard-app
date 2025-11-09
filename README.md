@@ -2,6 +2,14 @@
 
 A modern, full-featured personal finance tracking application built with React, TypeScript, and TailwindCSS.
 
+## Screenshots
+
+![Dashboard 1](screenshots/Dashboard%201.png)
+
+![Dashboard 2](screenshots/Dashboard%202.png)
+
+![Dashboard 3](screenshots/Dashboard%203.png)
+
 ## Features
 
 - 💰 **Transaction Management**: Add, edit, and delete income and expense transactions
