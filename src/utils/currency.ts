@@ -35,3 +35,5 @@ export const getExchangeRateToEUR = (currency: Currency): number => {
   return EXCHANGE_RATES[currency];
 };
 
+
+
